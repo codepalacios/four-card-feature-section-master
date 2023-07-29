@@ -29,6 +29,9 @@ span {
 }
 
 /* Mobile styles */
+body {
+  background-color: #fafafa;
+}
 main {
   margin-top: calc((85 / 16) * 1rem);
   margin-bottom: calc((78 / 16) * 1rem);
@@ -45,6 +48,7 @@ h1 {
   font-size: var(--24px);
   font-weight: 275;
   letter-spacing: 0.167px;
+  line-height: normal;
 }
 h1 span {
   font-weight: 600;
@@ -90,6 +94,7 @@ article {
 .content h2 {
   font-size: var(--20px);
   font-weight: 600;
+  line-height: normal;
 }
 .content p {
   font-size: var(--13px);
